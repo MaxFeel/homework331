@@ -37,8 +37,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_below="@id/edit_numbers"
-            app:layout_constraintTop_toTopOf="@id/edit_numbers"
-            >
+            app:layout_constraintTop_toTopOf="@id/edit_numbers">
 
 
             <TextView
@@ -47,10 +46,11 @@
                 android:layout_height="wrap_content"
                 android:text="F"
                 android:textSize="20sp"
-                app:layout_constraintBottom_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/litI"
+                app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintHorizontal_chainStyle="spread"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="@id/litI"
+                app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
@@ -59,10 +59,11 @@
                 android:layout_height="wrap_content"
                 android:text="i"
                 android:textSize="20sp"
-                app:layout_constraintBottom_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/litL"
+                app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintHorizontal_chainStyle="spread"
-                app:layout_constraintLeft_toLeftOf="@id/litF"
-                app:layout_constraintRight_toRightOf="@id/litL"
+                app:layout_constraintStart_toEndOf="@+id/litF"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
@@ -71,10 +72,11 @@
                 android:layout_height="wrap_content"
                 android:text="l"
                 android:textSize="20sp"
-                app:layout_constraintBottom_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/litI2"
+                app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintHorizontal_chainStyle="spread"
-                app:layout_constraintLeft_toLeftOf="@id/litI"
-                app:layout_constraintRight_toRightOf="@id/litI2"
+                app:layout_constraintStart_toEndOf="@+id/litI"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
@@ -83,10 +85,11 @@
                 android:layout_height="wrap_content"
                 android:text="i"
                 android:textSize="20sp"
-                app:layout_constraintBottom_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/litP"
+                app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintHorizontal_chainStyle="spread"
-                app:layout_constraintLeft_toLeftOf="@id/litL"
-                app:layout_constraintRight_toRightOf="@id/litP"
+                app:layout_constraintStart_toEndOf="@+id/litL"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
@@ -95,10 +98,11 @@
                 android:layout_height="wrap_content"
                 android:text="p"
                 android:textSize="20sp"
-                app:layout_constraintBottom_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/litP2"
+                app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintHorizontal_chainStyle="spread"
-                app:layout_constraintLeft_toLeftOf="@id/litL"
-                app:layout_constraintRight_toRightOf="@id/litP2"
+                app:layout_constraintStart_toEndOf="@+id/litI2"
                 app:layout_constraintTop_toTopOf="parent" />
 
 
@@ -108,10 +112,11 @@
                 android:layout_height="wrap_content"
                 android:text="p"
                 android:textSize="20sp"
-                app:layout_constraintBottom_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/litO"
+                app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintHorizontal_chainStyle="spread"
-                app:layout_constraintLeft_toLeftOf="@id/litP"
-                app:layout_constraintRight_toRightOf="@id/litO"
+                app:layout_constraintStart_toEndOf="@+id/litP"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
@@ -120,10 +125,11 @@
                 android:layout_height="wrap_content"
                 android:text="o"
                 android:textSize="20sp"
-                app:layout_constraintBottom_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/litV"
+                app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintHorizontal_chainStyle="spread"
-                app:layout_constraintLeft_toLeftOf="@id/litP2"
-                app:layout_constraintRight_toRightOf="@id/litV"
+                app:layout_constraintStart_toEndOf="@+id/litP2"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
@@ -132,10 +138,11 @@
                 android:layout_height="wrap_content"
                 android:text="v"
                 android:textSize="20sp"
-                app:layout_constraintBottom_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintHorizontal_chainStyle="spread"
-                app:layout_constraintLeft_toLeftOf="@id/litO"
-                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/litO"
                 app:layout_constraintTop_toTopOf="parent" />
 
 
